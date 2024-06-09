@@ -1,6 +1,6 @@
 import math
 import matplotlib.pyplot as pl
-
+#این کد عملیات کانولوشن یک بعدی را برروی لیست  ورودی انجام دادده و تلیست ورودی را با استفاد ه از فیلتر های مناسب تفکیک کرده و دو خروجی مجزا می دهد.
 def convolution_1d(signal, kernel):
  
     signal_length = len(signal)
